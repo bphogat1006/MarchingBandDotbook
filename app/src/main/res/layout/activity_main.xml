@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.marchingbanddotbook.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="12dp"
+            android:text="Reflections"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sheet_music"
+            style="@style/SongTitle"
+            android:paddingBottom="8dp"
+            android:text="Sheet Music and Audio" />
+
+        <LinearLayout
+            android:id="@+id/song_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/SongTitle"
+                android:text="@string/song_1" />
+
+            <TextView
+                style="@style/SongInfo"
+                android:text="16 sets" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/song_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/SongTitle"
+                android:text="@string/song_2" />
+
+            <TextView
+                style="@style/SongInfo"
+                android:text="13 sets" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/song_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/SongTitle"
+                android:text="@string/song_3" />
+
+            <TextView
+                style="@style/SongInfo"
+                android:text="22 sets" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

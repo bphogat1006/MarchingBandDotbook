@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Marching Band Dotbook</string>
+    <string name="song_1">Song 1</string>
+    <string name="song_2">Song 2</string>
+    <string name="song_3">Song 3</string>
+    <string-array name="song_1_measures">
+        <item>Measure</item>
+        <item>1</item>
+        <item>5</item>
+        <item>12</item>
+        <item>18</item>
+        <item>24</item>
+        <item>30</item>
+        <item>37</item>
+        <item>45</item>
+        <item>51</item>
+        <item>59</item>
+        <item>63</item>
+        <item>67</item>
+        <item>75</item>
+        <item>81</item>
+        <item>87</item>
+        <item>92</item>
+        <item>100</item>
+    </string-array>
+</resources>
