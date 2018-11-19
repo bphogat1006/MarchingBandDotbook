@@ -1,6 +1,5 @@
 # MarchingBandDotbook
 An Android application which provides a virtual dotbook and drill for marching band
-# Marching Band Dotbook
 
 Every member in a marching band has to carry around paper copies of their music and drill. This app digitizes the music and drill to make it more accessible on the field during practice. Additional functionality includes audio playback of the show music, as well as a section to add notes for each set of the show.
 
